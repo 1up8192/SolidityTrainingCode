@@ -1,0 +1,7 @@
+pragma solidity ^0.4.0;
+contract crowdfundingSkeleton {
+    //storage variables: e.g: balance, supporters, goal, , beneficiary
+    
+    //functions e.g: support, checkIfGoalMet, withdrawFunds, refund
+    
+}

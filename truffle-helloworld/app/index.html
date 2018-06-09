@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hello World</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href="./app.css" rel='stylesheet' type='text/css'>
+  <script src="./app.js"></script>
+</head>
+<body>
+  <h1>Hello World</h1>
+  <br>
+  <hr>
+  <h2>Get greeting</h2>
+  <br>
+  Greeting:
+  <b><span id="greetingMessage"></span></b>
+  <br>
+  <button id="refreshGreeting" onclick="App.refreshGreeting()">refresh</button>
+  <br>
+  <h2>Set greeting</h2>
+  <br>
+  <label for="newGreeting">Greeting: </label><input type="text" id="newGreeting" placeholder="e.g., 'hi!'"></input>
+  <br>
+  <button id="setGreeting" onclick="App.setGreeting()">set</button>
+  <br>
+  <h2>Changes</h2>
+  <br>
+  <table id="changes" class="flat-table"></table>
+  <br>
+  <span id="status"></span>
+</body>
+</html>

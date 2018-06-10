@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pastebin</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <script src="./app.js"></script>
+</head>
+<body>
+  <h1>Pastebin</h1>
+  <h2>Example Truffle Dapp</h2>
+  <h3>You have <span class="black"><span id="balance"></span> META</span></h3>
+
+  <br>
+  <h1>Create Paste</h1>
+  <br><label for="amount">Text:</label><input type="text" id="pasteText" placeholder="e.g., hello"></input>
+  <br><br><button id="send" onclick="App.createPaste()">Create Paste</button>
+  <br><br>
+  <br>
+  <h1>Get Paste</h1>
+  <br><label for="amount">Id:</label><input type="text" id="pasteId" placeholder="e.g., 10"></input>
+  <br><br><button id="send" onclick="App.getPaste()">Get Paste</button>
+  <span id="pasteResult"></span>
+  <br><br>
+  <span id="status"></span>
+  <br>
+  <span class="hint"><strong>Hint:</strong> open the browser developer console to view any errors and warnings.</span>
+</body>
+</html>
